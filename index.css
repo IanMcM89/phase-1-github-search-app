@@ -10,4 +10,62 @@
 
 ul {
   list-style: none;
+  display: inline;
+  width: 50%;
+}
+
+.user {
+  display: flex;
+  width: auto;
+  background: rgb(223, 223, 223);
+}
+
+.repo {
+  display: flex;
+  width: auto;
+  background: rgb(223, 223, 223);
+}
+
+.user-avatar {
+  border: black 2px solid;
+  display: flex;
+  text-align: center;
+  margin: 2%;
+  height: 10%;
+  width: 10%;
+}
+
+li h3 {
+  background: rgb(196, 196, 196);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin: 2%;
+  width: 45%;
+}
+
+li a {
+  background: rgb(187, 187, 187);
+  border: black 2px solid;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin: 2%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin: 2%;
+  width: 55%;
+  height: 43px;
 }
